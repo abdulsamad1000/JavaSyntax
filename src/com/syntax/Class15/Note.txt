@@ -1,0 +1,120 @@
+Note For Methods
+Question: What is a method:
+Method in java is block of code or group of java statment
+it defined the behavori of a class
+we call Method---> Behavior-->function
+Question: mwhy we should we use methods:
+1) it help us remove the duplicate code from our application. we jsut create a method and every time we need that logic
+we just call the mehtod that contains the logic.
+2) it also allows to write the code in the form of modules which makes the development of large applications easier.
+
+Question: how to use Methods:
+1) firs we create the method inside a class.
+2) we create the object of that class.
+3) we call the method by writing the name of the object then dot and name of the method.
+
+Question: where do we create Methods
+we create methods inside the class in java the methods existe inside the class
+note in other languages like python Cshop the method can stay outside the class
+
+Example:
+i want to create the class of Calculator {
+void add(int x,int y){
+System.out.println(x+y);            // note: if i want to call  this method what do i need. i need my main method
+}
+public static void main (String []args){
+Calculator calculator=new Calculator();      // note: to create this calculator you need the name of this class
+calculator.add(10,20);  // inside the pranteces we write the numbers like 10,20
+}
+
+}
+Rules
+void add(int x,int y){
+System.out.println(x+y);
+}
+void is a return type
+// the rule is every method should have a return type if it is int,double,float,boolean or void
+// Note if you want to return somthing use return if you do not want to return anything use void keyword
+()===> if we put anything inside this parenthesis we call it parameters
+parameters mean anything inside the parenthesis
+in method we can put data in the prenthesis or we can leave it blank it is optional
+the two curly brakets {} we call these the body of the methods that contains the java statements
+
+{
+System.out.pritnln(x+y);
+}
+this is we call the body of the method which contains the java statements
+
+add(int x,int y) this part without the void key word including parameter we call it signature of a method
+this is the interview question like what is the signature of the method you should answer it after the method including
+parameters we call this part the signature of the method.
+
+void add(int x,int y) this part we call it the header of the method
+
+
+========================================================================================================================
+
+
+((( Types of variable in java)))))
+there are 3 types of variable in java (1.local,2.instance and 3.static)
+
+1>===  local variable
+if a variable is inside a method or a part of its parameter or a loop or switch statement or if else condition it called a local variable
+
+2>===  Instance variable
+if a variable is inside a class but outside any block of code like method loop or switch statement if else condition it is
+called an instance variable.
+
+3>=== Static variable
+if a variable has Static key word with it then it is called a Static Variable
+
+
+
+((( why shoudl we learn about different types of variables mean the benifites of it))))
+
+1>>====== it help as reduce the amount of RAM that our application will be using when it will be running.
+2>>====== with the help of these variables we can pass information between methods of class.
+3>>====== Local variable occupy the memory for the shortest period of time. as soon as your method is done execution
+they are destroyed by a special program it is call garabage collector
+
+HOW TO USE THESE
+pros vs cons   same as this Advantage vs disadvantage
+1>>>>>==== The advantage and disadvantage of Local variable
+>>>> Advantage of local variable
+they occupy the memory for the shortest period of time always try to use local variables when possible
+to save memory
+>>>> Disadvantage of local variable
+they are very limited in scope mean we can not access them outside of method or that block of code.
+
+
+2.>>>==== the advantage and disadvantage of Instance variable
+>>>> Advantage of Instance variable
+they have broader scope as compared to local variables mean we can access them in all the methods o f that class.
+>>>> Disadvantage of Instance variable
+they occupy the space in your RAM for longer period of time.
+Exp: Google chrom has a lots of instance
+
+questions: if i want to share the information between two method of the class what variable should i use.
+Answer: instance variable
+question: if i want to create efficient application that do not occupy the memory what vraible should i use.
+Answer: local variable
+NOTE: WE SHOULD ALWAYS PREFER LOCAL VARIABLES
+
+3.>>>> the advantage and disadvantage of Static variable
+>>>> Advantage of Static variable
+we can call static variable without creating an object of a class.
+we can share a single variable between all the  object of a class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
