@@ -1,5 +1,5 @@
 package com.syntax.Class17;
-import com.syntax.class16.Dog;
+import com.syntax.Class16.Dog;
 public class Tester {
     public static void main(String[] args) {
 

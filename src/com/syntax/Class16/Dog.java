@@ -1,4 +1,4 @@
-package com.syntax.class16;
+package com.syntax.Class16;
 
 public class Dog {
     String name;

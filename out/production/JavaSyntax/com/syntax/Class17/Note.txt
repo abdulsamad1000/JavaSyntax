@@ -16,5 +16,5 @@ Protected:
     as well but they must have extends relationship with the original class.
 Public:
     When we use the public access modifiers we can use that field or method anywhere inside
-    the same project. we can access them in the class+ in the package+ in other packages +
+    the same project. we can access them in the class+ in the package+ in other packages
     in the project.

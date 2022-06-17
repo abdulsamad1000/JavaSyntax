@@ -1,5 +1,7 @@
 package com.syntax.Class17;
 
+import java.util.Scanner;
+
 public class Employee {
     public String name;
     public static String manager="Cindy";
