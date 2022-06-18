@@ -1,6 +1,6 @@
 package com.syntax.Class17;
 import com.syntax.Class16.Dog;
-public class Tester {
+public class Tester  {
     public static void main(String[] args) {
 
         /*
