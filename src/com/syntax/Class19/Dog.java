@@ -12,7 +12,7 @@ class Animal{
 }
 
 
-    public class Dog extends Animal{
+     class Dog extends Animal{
         Dog(String name,String color){
             this.name=name; // using extends keyword we
             // are able to access the name field from the animal class

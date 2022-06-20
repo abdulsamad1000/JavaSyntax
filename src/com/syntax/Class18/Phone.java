@@ -2,7 +2,7 @@ package com.syntax.Class18;
 
 public class Phone {
 
-    // this is alll practic for Constractor how to create a constractor and how to use and test them.
+    // this is all practice for Constructor how to create a constructor and how to use and test them.
     private String name;
     private String model;
    private int storage;
@@ -15,6 +15,7 @@ public class Phone {
         screen=phoneScreen;
     }
     void printInfo(){
+
         System.out.println("Name "+name+" Model "+model+" Storage "+storage+" Screen "+screen);
     }
 }
