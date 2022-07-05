@@ -1,0 +1,36 @@
+How to create a class of something or how to create an object in real life
+
+1. create the class
+2. create the object of the class like property,attributes,fields
+3. create the method,behaviours and function of the class
+4. create your main method
+5. create the object of the class to access it
+6. example how we create the class and the property and method and main method and access them
+
+class Human{
+String name;
+String color;
+int age;
+// now here we create the method of our class like the behaviour of our class what our class can do
+void eat(){
+System.out.println("human eat");
+}
+void talk(){
+System.out.println("human talking");
+}
+// we creat our main method
+public static void main (System[]args){
+// then we create the object of our class how we can access them
+// we write the class name first then name the = sign then new key word then name of the class ();
+Human human=new Human();
+// then acess them
+human.name="ahamad";
+human.color="white";
+human.age=30;
+
+// then we what to see the result we sout that like this name then .
+System.out.println(human.name);
+// to access the method we create the object of it
+human.eat();
+}
+}

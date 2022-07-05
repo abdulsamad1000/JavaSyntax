@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/src/com/syntax/Class15/MethodsDemo1.java" />
-      <file url="file://$PROJECT_DIR$/src/com/syntax/Class15/Task4.java" />
+      <file url="file://$PROJECT_DIR$/src/com/syntax/Class15WhatIsMethod/MethodsDemo1.java" />
+      <file url="file://$PROJECT_DIR$/src/com/syntax/Class15WhatIsMethod/Task4.java" />
     </excludeFromCompile>
   </component>
 </project>
