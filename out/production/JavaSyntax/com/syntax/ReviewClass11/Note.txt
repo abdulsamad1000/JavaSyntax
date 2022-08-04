@@ -1,0 +1,26 @@
+Encapsulation:
+it is one the pillars of OOPs
+making the class filed private and creating getter and setter better is called encapsulation.
+
+WHY WE SHOULD CARE ABOUT Encapsulation:
+1) it proviedes privacy
+2)it proviedes security
+
+HOW WE CAN USE Encapsulation:
+we maek the class fields private
+and create methods to access and modify these fields.
+
+class BankAccount{
+private String username;
+private String password;
+private doble balance;
+public setuserName(String userName){
+this.userName=userName;
+}
+
+public setuserName(String userName){
+this.userName=userName;
+
+
+}
+

@@ -43,3 +43,6 @@ LinkedList:
     linkedList.
     retrieval is super, super slow if the list is big.
 
+    What is Generic class:
+    a class can work with any datatype but we need to specify it first by using diamond operator
+

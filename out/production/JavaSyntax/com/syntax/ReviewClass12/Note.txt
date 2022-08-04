@@ -1,0 +1,46 @@
+
+What is List in java
+    1) it allows us to store duplicates
+    2) insertion order is maintained
+    ArrayList and LinkedList are the two most popular implementation of this interface.
+
+When to Use ArrayList:
+    when 90% of the Operations are related to retrieval then we should use ArrayList.
+
+When to Use LinkList:
+    when 90% of the Operation are manipulation mean adding and deleting -- Operation from
+    anywhere inside the List then we should use LinkedList.
+
+What is Set:
+    Set is dose not allow duplicate values.
+    Most Popula classes that have implemented Set interface.
+    1) HashSet 2) LinkedHashSet  3) TreeSet
+What is HashSet:
+    Upside of HashSet: Insertion and retrieval is fastest of all sets.
+    Downside: Insertion order is not maintained.
+What is LinkedHashSet:
+    Upside Of LinkedHashSet: it maintained the insertion order.
+    Downside: slower than HashSet but faster than TreeSet.
+    Retrieval speed is slowest of all.
+What is TreeSet:
+    Upside of TreeSet: Store the data in sorted from
+    Downside: insertion speed is slowest of all
+
+What is Map Interface in Java:
+    Map allows as to store key value paris.
+    most popular classes which are implemented the Map interface are     1)HashMap   2)LinkedHashMap   3) TreeMap
+What is the Upside of HashMap:
+    Upside of HashMap: fastest when it comes to insertion and retrieval
+    Downside of HashMap: No insertion order is maintained.
+
+What is Linked HashMap:
+    Upside of LinkedHashMap: insertion order is maintained.
+    Downside of LinkedHashMap: slower than HashMap but faster than TreeMap.
+    Retrieval speed is slowest of all
+
+    Things to be Revise before TestNG Class start
+    Classes Objects Constructors methods Inheritance Ploymorphism Collections.
+
+
+
+
